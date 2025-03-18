@@ -1,10 +1,10 @@
 version: '3.8'
 
 services:
-  web:
-    build: .
+
+    build: . 
     image: monrep
     ports:
-      - "8080:80"
+      - "8081:80"
     volumes:
       - .:/var/www/html
